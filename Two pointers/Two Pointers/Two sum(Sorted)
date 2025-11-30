@@ -1,0 +1,44 @@
+// 1) Question (Battle Map)
+// You are given a 1-indexed, sorted integer array numbers and a target integer target.
+// Find two numbers such that they add up to target and return their 1-based indices [i, j].
+// Assume exactly one solution exists and you may not use the same element twice.
+// Required time complexity: O(n).
+
+
+public int[] twoSum(int[] nums, int target) {
+    int left = 0;
+    int right = nums.length - 1;
+
+    while (left < right) {
+        int sum = nums[left] + nums[right];
+        if (sum == target) {
+            return new int[] { left + 1, right + 1 }; // 1-based
+        } else if (sum < target) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+    return new int[] { -1, -1 }; 
+}
+
+
+// 2) Time & Space Complexity
+// Time: O(n) — single linear pass using two pointers.
+// Space: O(1) — constant extra memory.
+
+// 4) Learnings
+// - Two pointers on a sorted array efficiently find a target sum in linear time.
+// - Compute the sum before checking conditions.
+// - Return indices (1-based), not the values.
+// - Syntax mistakes like wrong array literal or missing semicolons cause compile errors.
+
+// 5) Mistakes & How to Avoid
+// - Inconsistent variable names (num/arr/nums) → Stick to one name.
+// - Missing loop — always wrap logic in `while (left < right)`.
+// - Checked sum before computing → Always compute first.
+// - Wrong condition (<=) → Use < for left pointer movement.
+// - Redeclared variables → Declare sum once.
+// - Syntax errors: wrong array syntax, missing semicolon → Use `new int[]{...}` and `right--;`
+// - Returned values instead of indices → Ensure returning left+1, right+1.
+
