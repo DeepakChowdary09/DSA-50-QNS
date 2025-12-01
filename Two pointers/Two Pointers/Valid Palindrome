@@ -2,3 +2,7 @@
 // Given a string s, determine if it is a palindrome after ignoring
 // all non-alphanumeric characters and ignoring case.
 // Must run in O(n) time and O(1) space.
+
+// 2) Time & Space Complexity
+// Time:  O(n)
+// Space: O(1)
