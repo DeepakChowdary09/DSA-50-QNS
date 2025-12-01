@@ -6,3 +6,17 @@
 // 2) Time & Space Complexity
 // Time:  O(n)
 // Space: O(1)
+
+// 4) Learnings
+// - Use two pointers (i and j).
+// - Skip non-alphanumeric characters.
+// - Convert both characters to lowercase.
+// - Compare s.charAt(i) and s.charAt(j) directly.
+// - Return false immediately on mismatch.
+
+// 5) Mistakes to Avoid
+// - Never use s[i] in Java (use charAt).
+// - Don’t compare characters with a string list.
+// - Don’t return early after one match.
+// - Don’t forget to skip non-alphanumeric chars.
+// - Ensure proper pointer movement.
