@@ -1,1 +1,25 @@
+// 🟦 QUESTION: Remove Duplicates from Sorted Array
+// Given a sorted integer array nums, remove duplicates in-place
+// such that each unique element appears only once.
+// Return the number of unique elements k.
+
+// ⏱ Time Complexity: O(n)
+// 🧠 Space Complexity: O(1)
+
+// ✅ Key Learnings:
+// - Sorted array → duplicates are adjacent
+// - Use slow–fast pointers in the same direction
+// - slow tracks last unique index
+// - fast scans the array
+// - Unique count = slow + 1
+
+// ❌ Common Mistakes to Avoid:
+// - Do NOT use two-end pointers (i, j)
+// - Do NOT pass k as input
+// - Do NOT return inside the loop
+// - Do NOT use fast <= nums.length
+// - Do NOT maintain extra counters
+
+
+    
 
