@@ -1,4 +1,0 @@
-   // 🟦 QUESTION: Remove Duplicates from Sorted Array
-// Given a sorted integer array nums, remove duplicates in-place
-// such that each unique element appears only once.
-// Return the number of unique elements k.
