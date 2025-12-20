@@ -1,0 +1,62 @@
+// 1) Question (Battle Map)
+// Given a character array s, reverse the array in-place.
+// You must do this by modifying the input array with O(1) extra memory.
+
+// 🔹 Pattern
+// Two Pointers (Swap Ends)
+
+// 🔹 When to Use (Trigger)
+// - Reverse an array or string
+// - In-place modification required
+// - No extra space allowed
+
+// 🔹 Core Invariant
+// Elements outside the pointers are already reversed correctly
+
+// 🔹 Pointer Rules
+// - Swap elements at i and j
+// - Move i forward and j backward
+// - Stop when i >= j
+// - No comparison of values needed
+
+// 🔹 Common Mistakes (Recall Check)
+// ❌ Comparing values instead of swapping
+// ❌ Overwriting one side (losing data)
+// ❌ Moving pointers outward instead of inward
+// ❌ Returning early before full reversal
+
+// 🔹 One-Line Hint
+// Reverse = swap positions, not values
+
+// -------------------
+//        CODE
+// -------------------
+
+public void reverseString(char[] s) {
+    int i = 0;
+    int j = s.length - 1;
+
+    while (i < j) {
+        char temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
+
+        i++;
+        j--;
+    }
+}
+
+// Optional: XOR swap version (only if temp variable is not allowed)
+public void reverseStringXOR(char[] s) {
+    int i = 0;
+    int j = s.length - 1;
+
+    while (i < j) {
+        s[i] ^= s[j];
+        s[j] ^= s[i];
+        s[i] ^= s[j];
+
+        i++;
+        j--;
+    }
+}
