@@ -1,0 +1,81 @@
+// 🟦 Container With Most Water
+// You are given an integer array `height`.
+// Each element represents the height of a vertical line at that index.
+// Pick any two lines that form a container with the x-axis.
+// Return the maximum water the container can store.
+//
+// Formula:
+// area = min(height[left], height[right]) × (right − left)
+//
+// Rules:
+// - You cannot tilt the container
+// - Must choose exactly two lines
+//
+//
+// ─────────────────────────────────────────
+// 2️⃣ Pattern
+// ─────────────────────────────────────────
+// Two Pointers (Ends → Inward)
+//
+// Start with maximum width and shrink intelligently
+//
+//
+// ─────────────────────────────────────────
+// 3️⃣ When to Use (Trigger)
+// ─────────────────────────────────────────
+// - Array-based problem
+// - Need max/min value
+// - Formula depends on distance between indices
+//
+//
+// ─────────────────────────────────────────
+// 4️⃣ Core Invariant
+// ─────────────────────────────────────────
+// Area is always limited by the shorter wall
+// Moving the taller wall never increases area
+//
+//
+// ─────────────────────────────────────────
+// 5️⃣ Pointer Rules (Measurement Logic)
+// ─────────────────────────────────────────
+// - Container Height = min(left wall, right wall)
+// - Container Width  = right index − left index
+// - Area = height × width
+//
+// Movement Rule:
+// - Move the pointer with smaller height
+//   because only that can improve future area
+//
+//
+// ─────────────────────────────────────────
+// 6️⃣ Time & Space
+// ─────────────────────────────────────────
+// Time:  O(n)  → each pointer moves once
+// Space: O(1)  → no extra memory
+//
+//
+// ─────────────────────────────────────────
+// 7️⃣ Code (Clean — No Comments Inside)
+// ─────────────────────────────────────────
+
+class Solution {
+    public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int max = 0;
+
+        while (left < right) {
+            int h = Math.min(height[left], height[right]);
+            int w = right - left;
+            max = Math.max(max, h * w);
+
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return max;
+    }
+}
