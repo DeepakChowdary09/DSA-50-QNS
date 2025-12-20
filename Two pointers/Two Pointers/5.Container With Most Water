@@ -6,21 +6,18 @@
 
 // Formula:
 // area = min(height[left], height[right]) × (right − left)
-//
+
 // Rules:
 // - You cannot tilt the container
 // - Must choose exactly two lines
-//
-//
-// ─────────────────────────────────────────
-// 2️⃣ Pattern
-// ─────────────────────────────────────────
-// Two Pointers (Ends → Inward)
 
+// 2️⃣ Pattern
+
+// Two Pointers (Ends → Inward)
 // Start with maximum width and shrink intelligently
-// ─────────────────────────────────────────
+
 // 3️⃣ When to Use (Trigger)
-// ─────────────────────────────────────────
+
 // - Array-based problem
 // - Need max/min value
 // - Formula depends on distance between indices
