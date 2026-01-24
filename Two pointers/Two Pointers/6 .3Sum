@@ -1,0 +1,89 @@
+// You are given an integer array nums.
+// Return all unique triplets [nums[i], nums[j], nums[k]] such that:
+// - i != j != k
+// - nums[i] + nums[j] + nums[k] == 0
+// Triplets must be unique (no duplicates).
+
+// Formula:
+// target = 0
+// need: nums[left] + nums[right] == -nums[i]
+
+// Rules:
+// - Return triplets in any order
+// - No duplicate triplets allowed
+// - You must use 3 different indices
+
+// Pattern
+// Sort + Two Pointers (Fix one → solve 2Sum on remaining)
+
+//  When to Use (Trigger)
+// - Need triplets / combinations
+// - Sum condition exists
+// - Unique answers required
+// - Array problem with optimization needed
+
+// ─────────────────────────────────────────
+// Core Invariant
+// ─────────────────────────────────────────
+// After sorting:
+// - Fix i, then search pairs in (i+1 ... n-1)
+// - Move pointers based on sum comparison
+// - Skip duplicates to ensure uniqueness
+
+// ─────────────────────────────────────────
+//Pointer Rules (Measurement Logic)
+// ─────────────────────────────────────────
+// For each i:
+// - left = i + 1
+// - right = n - 1
+//
+// If sum == 0 → store triplet, move both, skip duplicates
+// If sum < 0 → need bigger sum → left++
+// If sum > 0 → need smaller sum → right--
+
+// ─────────────────────────────────────────
+// Time & Space
+// ─────────────────────────────────────────
+// Time: O(n^2)
+// Space: O(1) (excluding output)
+
+// ─────────────────────────────────────────
+//  Code (Clean — No Comments Inside)
+// ─────────────────────────────────────────
+
+class Solution {
+public List<List<Integer>> threeSum(int[] nums) {
+Arrays.sort(nums);
+List<List<Integer>> res = new ArrayList<>();
+int n = nums.length;
+
+    for (int i = 0; i < n; i++) {
+        if (i > 0 && nums[i] == nums[i - 1]) continue;
+        if (nums[i] > 0) break;
+
+        int left = i + 1;
+        int right = n - 1;
+
+        while (left < right) {
+            int sum = nums[i] + nums[left] + nums[right];
+
+            if (sum == 0) {
+                res.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                left++;
+                right--;
+
+                while (left < right && nums[left] == nums[left - 1]) left++;
+                while (left < right && nums[right] == nums[right + 1]) right--;
+            } else if (sum < 0) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+    }
+
+    return res;
+}
+
+
+}
