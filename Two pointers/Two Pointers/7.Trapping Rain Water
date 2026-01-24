@@ -1,0 +1,69 @@
+// You are given an integer array height.
+// Each element represents elevation at that index.
+// Return how much water can be trapped after raining.
+// Formula:
+// water[i] = min(maxLeft[i], maxRight[i]) - height[i]
+// Rules:
+// - Water trapped only where there are taller bars on both sides
+// - No negative water (treat as 0)
+//  Pattern
+// Two Pointers + Running Max (Ends → Inward)
+// When to Use (Trigger)
+// - Array-based elevation / histogram
+// - Need total trapped area
+// - Local contribution depends on left and right boundaries
+// ─────────────────────────────────────────
+//  Core Invariant
+// ─────────────────────────────────────────
+// Water at a position is limited by the smaller boundary:
+// min(maxLeft, maxRight)
+// Using two pointers:
+// - If leftMax <= rightMax, left side is resolved
+// - Else, right side is resolved
+// ─────────────────────────────────────────
+//  Pointer Rules (Measurement Logic)
+// ─────────────────────────────────────────
+// Maintain:
+// - leftMax  = max height seen from left
+// - rightMax = max height seen from right
+//
+// If height[left] <= height[right]:
+// - leftMax = max(leftMax, height[left])
+// - water += leftMax - height[left]
+// - left++
+//
+// Else:
+// - rightMax = max(rightMax, height[right])
+// - water += rightMax - height[right]
+// - right--
+// ─────────────────────────────────────────
+// Time & Space
+// ─────────────────────────────────────────
+// Time:  O(n)
+// Space: O(1)
+// ─────────────────────────────────────────
+//  Code (Clean — No Comments Inside)
+// ─────────────────────────────────────────
+class Solution {
+public int trap(int[] height) {
+int left = 0;
+int right = height.length - 1;
+int leftMax = 0;
+int rightMax = 0;
+int water = 0;
+    while (left < right) {
+        if (height[left] <= height[right]) {
+            leftMax = Math.max(leftMax, height[left]);
+            water += leftMax - height[left];
+            left++;
+        } else {
+            rightMax = Math.max(rightMax, height[right]);
+            water += rightMax - height[right];
+            right--;
+        }
+    }
+
+    return water;
+}
+
+}
