@@ -1,0 +1,67 @@
+// You are given a string s.
+// Return the length of the longest substring
+// without repeating characters.
+
+// Formula:
+// window length = right − left + 1
+
+// Rules:
+// - Substring must be contiguous
+// - Characters inside window must be unique
+
+// 2️⃣ Pattern
+// Sliding Window + Two Pointers
+
+// 3️⃣ When to Use (Trigger)
+// - String / array window problems
+// - Need longest / shortest valid subarray
+// - Constraint: uniqueness / frequency condition
+
+// ─────────────────────────────────────────
+// 4️⃣ Core Invariant
+// ─────────────────────────────────────────
+// Window [left, right] always contains unique characters
+// If a duplicate appears:
+// - Shrink window from left until valid again
+
+// ─────────────────────────────────────────
+// 5️⃣ Pointer Rules (Measurement Logic)
+// ─────────────────────────────────────────
+// - Expand right to include new character
+// - If character already exists in window:
+// move left until duplicate is removed
+// - Update maximum window size each step
+
+// ─────────────────────────────────────────
+// 6️⃣ Time & Space
+// ─────────────────────────────────────────
+// Time: O(n) → each character processed at most twice
+// Space: O(1) → fixed-size set (ASCII)
+
+// ─────────────────────────────────────────
+// 7️⃣ Code (Clean — No Comments Inside)
+// ─────────────────────────────────────────
+
+class Solution {
+public int lengthOfLongestSubstring(String s) {
+int left = 0;
+int max = 0;
+Set<Character> set = new HashSet<>();
+
+    for (int right = 0; right < s.length(); right++) {
+        char c = s.charAt(right);
+
+        while (set.contains(c)) {
+            set.remove(s.charAt(left));
+            left++;
+        }
+
+        set.add(c);
+        max = Math.max(max, right - left + 1);
+    }
+
+    return max;
+}
+
+
+}
