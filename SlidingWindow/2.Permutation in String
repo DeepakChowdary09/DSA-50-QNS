@@ -1,0 +1,73 @@
+// You are given two strings s1 and s2.
+// Return true if s2 contains a permutation of s1,
+// otherwise return false.
+
+// Formula:
+// valid window when frequency(s1) == frequency(window)
+
+// Rules:
+// - Permutation means same characters with same counts
+// - Window length must be exactly s1.length()
+
+// Pattern
+// Sliding Window + Frequency Count
+
+// When to Use (Trigger)
+// - String matching problems
+// - Fixed-size window
+// - Character frequency comparison
+
+// ─────────────────────────────────────────
+// Core Invariant
+// ─────────────────────────────────────────
+// Window size is always equal to s1 length
+// At any point, window is valid if both frequency maps match
+
+// ─────────────────────────────────────────
+// Pointer Rules (Measurement Logic)
+// ─────────────────────────────────────────
+// - Expand right pointer and include character
+// - If window size exceeds s1 length, remove left character
+// - After each adjustment, compare frequencies
+
+// ─────────────────────────────────────────
+// Time & Space
+// ─────────────────────────────────────────
+// Time: O(n)
+// Space: O(1) → fixed 26-length arrays
+
+// ─────────────────────────────────────────
+// Code (Clean — No Comments Inside)
+// ─────────────────────────────────────────
+
+class Solution {
+public boolean checkInclusion(String s1, String s2) {
+if (s1.length() > s2.length()) return false;
+
+    int[] need = new int[26];
+    int[] window = new int[26];
+
+    for (char c : s1.toCharArray()) {
+        need[c - 'a']++;
+    }
+
+    int left = 0;
+
+    for (int right = 0; right < s2.length(); right++) {
+        window[s2.charAt(right) - 'a']++;
+
+        if (right - left + 1 > s1.length()) {
+            window[s2.charAt(left) - 'a']--;
+            left++;
+        }
+
+        if (right - left + 1 == s1.length()) {
+            if (Arrays.equals(need, window)) return true;
+        }
+    }
+
+    return false;
+}
+
+
+}
