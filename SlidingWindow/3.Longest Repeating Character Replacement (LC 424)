@@ -38,3 +38,49 @@
 // ─────────────────────────────────────────
 // Time: O(n)
 // Space: O(1) → fixed 26-length array
+
+
+class Solution {
+
+    public int characterReplacement(String s, int k) {
+
+        // Frequency array for characters A-Z
+        int[] freq = new int[26];
+
+        // Left pointer of sliding window
+        int left = 0;
+
+        // Stores the count of the most frequent character in the current window
+        int maxFreq = 0;
+
+        // Stores the maximum valid window length found
+        int maxLen = 0;
+
+        // Right pointer expands the window
+        for (int right = 0; right < s.length(); right++) {
+
+            // Convert character to index (A -> 0, B -> 1, ...)
+            int idx = s.charAt(right) - 'A';
+
+            // Add current character to frequency
+            freq[idx]++;
+
+            // Update max frequency seen in the window
+            // NOTE: We do NOT decrease maxFreq when shrinking the window
+            maxFreq = Math.max(maxFreq, freq[idx]);
+
+            // If replacements needed > k, shrink window from the left
+            // replacements = window size - most frequent character
+            while ((right - left + 1) - maxFreq > k) {
+                freq[s.charAt(left) - 'A']--;
+                left++;
+            }
+
+            // Update the maximum valid window size
+            maxLen = Math.max(maxLen, right - left + 1);
+        }
+
+        // Return the longest valid window
+        return maxLen;
+    }
+}
