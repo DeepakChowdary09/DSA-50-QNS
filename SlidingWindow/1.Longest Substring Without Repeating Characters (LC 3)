@@ -24,21 +24,3 @@
 // If a duplicate appears:
 // - Shrink window from left until valid again
 
-// ─────────────────────────────────────────
-// 5️⃣ Pointer Rules (Measurement Logic)
-// ─────────────────────────────────────────
-// - Expand right to include new character
-// - If character already exists in window:
-// move left until duplicate is removed
-// - Update maximum window size each step
-
-// ─────────────────────────────────────────
-// 6️⃣ Time & Space
-// ─────────────────────────────────────────
-// Time: O(n) → each character processed at most twice
-// Space: O(1) → fixed-size set (ASCII)
-
-// ─────────────────────────────────────────
-// 7️⃣ Code (Clean — No Comments Inside)
-// ─────────────────────────────────────────
-
