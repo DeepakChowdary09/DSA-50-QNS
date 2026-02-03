@@ -18,4 +18,10 @@
 // - Constraint: uniqueness / frequency condition
 
 // ─────────────────────────────────────────
-/
+// 4️⃣ Core Invariant
+// ─────────────────────────────────────────
+// Window [left, right] always contains unique characters
+// If a duplicate appears:
+// - Shrink window from left until valid again
+
+
