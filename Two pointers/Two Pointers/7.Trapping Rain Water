@@ -36,14 +36,7 @@
 // - rightMax = max(rightMax, height[right])
 // - water += rightMax - height[right]
 // - right--
-// ─────────────────────────────────────────
-// Time & Space
-// ─────────────────────────────────────────
-// Time:  O(n)
-// Space: O(1)
-// ─────────────────────────────────────────
-//  Code (Clean — No Comments Inside)
-// ─────────────────────────────────────────
+//
 
 
     return water;
