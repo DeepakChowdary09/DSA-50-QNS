@@ -17,3 +17,15 @@ Minimum Size Subarray Sum (LC 209)
 
 // Pattern
 // Sliding Window (Variable Size)
+
+/ When to Use (Trigger)
+// - Contiguous subarray problems
+// - Positive numbers only
+// - Need minimum length satisfying condition
+
+// ─────────────────────────────────────────
+// Core Invariant
+// ─────────────────────────────────────────
+// Expand window to increase sum
+// Shrink window while condition is satisfied
+// Always try to minimize window length once valid
