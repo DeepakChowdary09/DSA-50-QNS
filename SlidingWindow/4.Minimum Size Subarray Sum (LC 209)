@@ -29,3 +29,17 @@ Minimum Size Subarray Sum (LC 209)
 // Expand window to increase sum
 // Shrink window while condition is satisfied
 // Always try to minimize window length once valid
+
+/ Pointer Rules (Measurement Logic)
+// ─────────────────────────────────────────
+// - Expand right pointer and add to sum
+// - While sum >= target:
+// update minimum length
+// subtract nums[left]
+// move left pointer
+
+// ─────────────────────────────────────────
+// Time & Space
+// ─────────────────────────────────────────
+// Time: O(n)
+// Space: O(1)
