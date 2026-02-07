@@ -4,3 +4,11 @@ Sliding Window Maximum (LC 239)
 // and an integer k.
 // Return an array of the maximum value
 // in each sliding window of size k.
+// Formula:
+// window = [i − k + 1 ... i]
+// max = front of deque
+
+// Rules:
+// - Window size is fixed (k)
+// - Need maximum for each window
+// - Must be efficient (better than O(nk))
