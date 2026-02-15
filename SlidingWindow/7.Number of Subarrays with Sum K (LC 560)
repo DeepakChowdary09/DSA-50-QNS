@@ -26,3 +26,17 @@
 // Maintain running prefix sum
 // If (currentSum − k) exists in map,
 // then that many subarrays end at current index
+
+// Pointer / Calculation Logic
+// ─────────────────────────────────────────
+// - Initialize map with (0 → 1)
+// - For each number:
+// update running sum
+// if (sum − k) exists → add its frequency to count
+// store/update current sum frequency
+
+// ─────────────────────────────────────────
+// Time & Space
+// ─────────────────────────────────────────
+// Time: O(n)
+// Space: O(n)
