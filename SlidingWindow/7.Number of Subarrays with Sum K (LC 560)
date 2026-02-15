@@ -6,3 +6,11 @@
 // Formula:
 // prefixSum[j] − prefixSum[i] = k
 // → prefixSum[i] = prefixSum[j] − k
+
+// Rules:
+// - Subarray must be contiguous
+// - Array can contain negative numbers
+// - Return count (not length)
+
+// Pattern
+// Prefix Sum + HashMap (Frequency Count)
