@@ -14,3 +14,15 @@
 
 // Pattern
 // Prefix Sum + HashMap (Frequency Count)
+
+// When to Use (Trigger)
+// - Count of subarrays with exact sum
+// - Negative numbers present
+// - Sliding window not reliable
+
+// ─────────────────────────────────────────
+// Core Invariant
+// ─────────────────────────────────────────
+// Maintain running prefix sum
+// If (currentSum − k) exists in map,
+// then that many subarrays end at current index
