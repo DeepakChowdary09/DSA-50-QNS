@@ -1,0 +1,8 @@
+// You are given an integer array nums
+// and an integer k.
+// Return the total number of continuous subarrays
+// whose sum equals k.
+
+// Formula:
+// prefixSum[j] − prefixSum[i] = k
+// → prefixSum[i] = prefixSum[j] − k
