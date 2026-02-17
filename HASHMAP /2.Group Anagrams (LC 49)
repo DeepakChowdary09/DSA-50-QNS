@@ -9,3 +9,14 @@
 // Rules:
 // - Words are lowercase English letters
 // - Words with identical character frequency belong to same group
+
+// When to Use (Trigger)
+// - Need to group similar strings
+// - Equality based on character frequency
+// - Order inside word does not matter
+
+// ─────────────────────────────────────────
+// Core Invariant
+// ─────────────────────────────────────────
+// All anagrams share identical sorted representation
+// Use sorted string as key in hashmap
