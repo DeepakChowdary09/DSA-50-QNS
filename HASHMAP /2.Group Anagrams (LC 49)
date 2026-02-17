@@ -20,3 +20,19 @@
 // ─────────────────────────────────────────
 // All anagrams share identical sorted representation
 // Use sorted string as key in hashmap
+// Measurement Logic
+// ─────────────────────────────────────────
+// - For each word:
+// convert to char array
+// sort it
+// build string key
+// insert into hashmap
+// - Return all map values
+
+// ─────────────────────────────────────────
+// Time & Space
+// ─────────────────────────────────────────
+// Time: O(n * k log k)
+// n = number of strings
+// k = max string length
+// Space: O(n * k)
