@@ -1,1 +1,11 @@
+// You are given an array of strings strs.
+// Group the anagrams together and return the groups.
+// Order of output does not matter.
 
+// Formula:
+// Anagrams → same sorted string
+// key = sorted(word)
+
+// Rules:
+// - Words are lowercase English letters
+// - Words with identical character frequency belong to same group
