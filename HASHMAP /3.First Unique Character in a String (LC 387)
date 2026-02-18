@@ -16,3 +16,15 @@
 // - Need first element satisfying condition
 // - Frequency-based uniqueness
 // - Order matters
+// Core Invariant
+// ─────────────────────────────────────────
+// First pass → count frequency of each character
+// Second pass → find first index with count == 1
+
+// ─────────────────────────────────────────
+// Measurement Logic
+// ─────────────────────────────────────────
+// - Create frequency array of size 26
+// - Count each character
+// - Iterate string again
+// - Return first index where freq == 1
