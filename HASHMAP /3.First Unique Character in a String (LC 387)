@@ -1,1 +1,18 @@
+// You are given a string s.
+// Return the index of the first non-repeating character.
+// If it does not exist, return -1.
 
+// Formula:
+// character is unique if frequency == 1
+
+// Rules:
+// - String contains lowercase English letters
+// - Return first index with frequency 1
+
+// Pattern
+// Frequency Count (Two Pass)
+
+// When to Use (Trigger)
+// - Need first element satisfying condition
+// - Frequency-based uniqueness
+// - Order matters
