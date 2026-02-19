@@ -4,9 +4,6 @@
 
 
 
-// Rules:
-// - String contains lowercase English letters
-// - Return first index with frequency 1
 
 // Pattern
 // Frequency Count (Two Pass)
