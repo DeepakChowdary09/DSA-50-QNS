@@ -9,10 +9,6 @@
 // Frequency Count (Two Pass)
 
 
-// Core Invariant
-// ─────────────────────────────────────────
-// First pass → count frequency of each character
-// Second pass → find first index with count == 1
 
 // ─────────────────────────────────────────
 // Measurement Logic
