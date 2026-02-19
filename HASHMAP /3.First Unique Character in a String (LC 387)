@@ -2,8 +2,7 @@
 // Return the index of the first non-repeating character.
 // If it does not exist, return -1.
 
-// Formula:
-// character is unique if frequency == 1
+
 
 // Rules:
 // - String contains lowercase English letters
