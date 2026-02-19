@@ -8,10 +8,7 @@
 // Pattern
 // Frequency Count (Two Pass)
 
-// When to Use (Trigger)
-// - Need first element satisfying condition
-// - Frequency-based uniqueness
-// - Order matters
+
 // Core Invariant
 // ─────────────────────────────────────────
 // First pass → count frequency of each character
