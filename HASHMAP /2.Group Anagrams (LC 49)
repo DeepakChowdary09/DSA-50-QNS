@@ -6,9 +6,7 @@
 // Anagrams → same sorted string
 // key = sorted(word)
 
-// Rules:
-// - Words are lowercase English letters
-// - Words with identical character frequency belong to same group
+
 
 // When to Use (Trigger)
 // - Need to group similar strings
@@ -36,6 +34,8 @@
 // n = number of strings
 // k = max string length
 // Space: O(n * k)
+
+
 class Solution {
 public List<List<String>> groupAnagrams(String[] strs) {
 Map<String, List<String>> map = new HashMap<>();
