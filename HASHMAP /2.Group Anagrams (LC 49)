@@ -13,7 +13,7 @@
 // - Equality based on character frequency
 // - Order inside word does not matter
 
-// ─────────────────────────────────────────
+
 // Core Invariant
 // ─────────────────────────────────────────
 // All anagrams share identical sorted representation
