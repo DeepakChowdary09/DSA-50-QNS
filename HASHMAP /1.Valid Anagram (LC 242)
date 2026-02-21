@@ -9,3 +9,11 @@
 // - Both strings must have same length
 // - Characters and their counts must match exactly
 // - Case-sensitive (if specified)
+
+// Pattern
+// Frequency Count (Single Array Cancelation)
+
+// When to Use (Trigger)
+// - Compare two strings
+// - Order does not matter
+// - Exact frequency matching required
