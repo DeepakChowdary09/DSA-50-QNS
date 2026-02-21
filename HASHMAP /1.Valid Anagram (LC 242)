@@ -17,3 +17,18 @@
 // - Compare two strings
 // - Order does not matter
 // - Exact frequency matching required
+
+// Core Invariant
+// ─────────────────────────────────────────
+// If two strings are anagrams:
+// After incrementing for s and decrementing for t,
+// all frequencies will be zero.
+
+// ─────────────────────────────────────────
+// Measurement Logic
+// ─────────────────────────────────────────
+// - If lengths differ → return false
+// - Traverse both strings simultaneously
+// - Increment count for s[i]
+// - Decrement count for t[i]
+// - Check if all values are zero
