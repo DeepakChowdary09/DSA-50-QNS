@@ -1,3 +1,11 @@
 // You are given two strings s and t.
 // Return true if t is an anagram of s,
 // otherwise return false.
+
+// Formula:
+// frequency(s) == frequency(t)
+
+// Rules:
+// - Both strings must have same length
+// - Characters and their counts must match exactly
+// - Case-sensitive (if specified)
