@@ -21,14 +21,7 @@
 // - Sliding window not reliable
 
 
-
-// Pointer / Calculation Logic
-// ─────────────────────────────────────────
-// - Initialize map with (0 → 1)
-// - For each number:
-// update running sum
-// if (sum − k) exists → add its frequency to count
-// store/update current sum frequency
+\
 
 // ─────────────────────────────────────────
 // Time & Space
