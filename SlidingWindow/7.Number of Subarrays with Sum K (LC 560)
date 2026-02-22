@@ -15,10 +15,7 @@
 // Pattern
 // Prefix Sum + HashMap (Frequency Count)
 
-// When to Use (Trigger)
-// - Count of subarrays with exact sum
-// - Negative numbers present
-// - Sliding window not reliable
+
 
 
 \
