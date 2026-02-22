@@ -20,12 +20,7 @@
 // - Negative numbers present
 // - Sliding window not reliable
 
-// ─────────────────────────────────────────
-// Core Invariant
-// ─────────────────────────────────────────
-// Maintain running prefix sum
-// If (currentSum − k) exists in map,
-// then that many subarrays end at current index
+
 
 // Pointer / Calculation Logic
 // ─────────────────────────────────────────
