@@ -32,9 +32,7 @@
 // Time: O(n) → each character processed at most twice
 // Space: O(1) → fixed-size set (ASCII)
 
-// ─────────────────────────────────────────
 
-// ─────────────────────────────────────────
 
 class Solution {
 public int lengthOfLongestSubstring(String s) {
