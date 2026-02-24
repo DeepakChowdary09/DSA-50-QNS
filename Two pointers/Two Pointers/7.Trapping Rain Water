@@ -1,22 +1,32 @@
 // You are given an integer array height.
 // Each element represents elevation at that index.
 // Return how much water can be trapped after raining.
+
+
 // Formula:
 // water[i] = min(maxLeft[i], maxRight[i]) - height[i]
+
+
 // Rules:
 // - Water trapped only where there are taller bars on both sides
 // - No negative water (treat as 0)
+
+
 //  Pattern
 // Two Pointers + Running Max (Ends → Inward)
 // When to Use (Trigger)
 // - Array-based elevation / histogram
 // - Need total trapped area
 // - Local contribution depends on left and right boundaries
+
+
 // ─────────────────────────────────────────
 //  Core Invariant
 // ─────────────────────────────────────────
 // Water at a position is limited by the smaller boundary:
 // min(maxLeft, maxRight)
+
+
 // Using two pointers:
 // - If leftMax <= rightMax, left side is resolved
 // - Else, right side is resolved
