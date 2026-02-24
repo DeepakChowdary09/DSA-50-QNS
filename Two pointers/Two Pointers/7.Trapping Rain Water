@@ -21,7 +21,6 @@
 
 
 
-// ─────────────────────────────────────────
 // Water at a position is limited by the smaller boundary:
 // min(maxLeft, maxRight)
 
@@ -29,9 +28,12 @@
 // Using two pointers:
 // - If leftMax <= rightMax, left side is resolved
 // - Else, right side is resolved
+
 // ─────────────────────────────────────────
 //  Pointer Rules (Measurement Logic)
 // ─────────────────────────────────────────
+
+
 // Maintain:
 // - leftMax  = max height seen from left
 // - rightMax = max height seen from right
