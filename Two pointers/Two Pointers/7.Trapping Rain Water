@@ -20,8 +20,7 @@
 // - Local contribution depends on left and right boundaries
 
 
-// ─────────────────────────────────────────
-//  Core Invariant
+
 // ─────────────────────────────────────────
 // Water at a position is limited by the smaller boundary:
 // min(maxLeft, maxRight)
