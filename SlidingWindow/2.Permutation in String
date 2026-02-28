@@ -23,9 +23,7 @@
 // Window size is always equal to s1 length
 // At any point, window is valid if both frequency maps match
 
-// ─────────────────────────────────────────
-// Pointer Rules (Measurement Logic)
-// ─────────────────────────────────────────
+
 // - Expand right pointer and include character
 // - If window size exceeds s1 length, remove left character
 // - After each adjustment, compare frequencies
