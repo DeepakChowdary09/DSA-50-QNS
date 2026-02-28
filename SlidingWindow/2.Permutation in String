@@ -19,9 +19,7 @@
 // - Fixed-size window
 // - Character frequency comparison
 
-// ─────────────────────────────────────────
-// Core Invariant
-// ─────────────────────────────────────────
+
 // Window size is always equal to s1 length
 // At any point, window is valid if both frequency maps match
 
