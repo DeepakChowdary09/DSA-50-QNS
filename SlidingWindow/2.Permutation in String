@@ -34,9 +34,7 @@
 // Time: O(n)
 // Space: O(1) → fixed 26-length arrays
 
-// ─────────────────────────────────────────
-// Code (Clean — No Comments Inside)
-// ─────────────────────────────────────────
+
 class Solution {
 public boolean checkInclusion(String s1, String s2) {
 if (s1.length() > s2.length()) return false;
