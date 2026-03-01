@@ -7,7 +7,7 @@
 // Formula:
 // valid window when frequency(s1) == frequency(window)
 
-// Rules:
+
 // - Permutation means same characters with same counts
 // - Window length must be exactly s1.length()
 
