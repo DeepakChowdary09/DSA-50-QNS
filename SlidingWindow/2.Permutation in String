@@ -29,7 +29,7 @@
 // - After each adjustment, compare frequencies
 
 // Time & Space
-// ─────────────────────────────────────────
+
 // Time: O(n)
 // Space: O(1) → fixed 26-length arrays
 
