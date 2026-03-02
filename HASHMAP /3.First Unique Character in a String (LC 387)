@@ -2,19 +2,10 @@
 // Return the index of the first non-repeating character.
 // If it does not exist, return -1.
 
-
-
-
 // Pattern
 // Frequency Count (Two Pass)
-
-
-
-
 // Time: O(n)
 // Space: O(1)
-
-
 
 class Solution {
 public int firstUniqChar(String s) {
