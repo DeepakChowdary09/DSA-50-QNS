@@ -1,5 +1,5 @@
 # DSA-50-QNS
- 50-Problem Sheet  
+  The problems that are in this 50-Problem Sheet are of the below mentioned patterns.  
 
 ➡️ Covers high-leverage patterns 
 
