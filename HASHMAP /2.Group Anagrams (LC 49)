@@ -6,8 +6,6 @@
 // Anagrams → same sorted string
 // key = sorted(word)
 
-
-
 // When to Use (Trigger)
 // - Need to group similar strings
 // - Equality based on character frequency
