@@ -14,8 +14,6 @@
 // - Order inside word does not matter
 
 
-// Core Invariant
-// ─────────────────────────────────────────
 // All anagrams share identical sorted representation
 // Use sorted string as key in hashmap
 // Measurement Logic
