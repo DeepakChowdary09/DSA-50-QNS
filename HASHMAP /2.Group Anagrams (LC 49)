@@ -27,8 +27,6 @@
 // - Return all map values
 
 
-// Time & Space
-// ─────────────────────────────────────────
 // Time: O(n * k log k)
 // n = number of strings
 // k = max string length
