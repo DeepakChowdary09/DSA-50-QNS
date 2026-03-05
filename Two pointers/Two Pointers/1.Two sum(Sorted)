@@ -38,7 +38,5 @@ public int[] twoSum(int[] nums, int target) {
 // - Missing loop — always wrap logic in `while (left < right)`.
 // - Checked sum before computing → Always compute first.
 // - Wrong condition (<=) → Use < for left pointer movement.
-// - Redeclared variables → Declare sum once.
-nd `right--;`
-// - Returned values instead of indices → Ensure returning left+1, right+1.
+
 
