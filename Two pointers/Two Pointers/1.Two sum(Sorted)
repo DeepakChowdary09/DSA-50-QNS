@@ -39,6 +39,6 @@ public int[] twoSum(int[] nums, int target) {
 // - Checked sum before computing → Always compute first.
 // - Wrong condition (<=) → Use < for left pointer movement.
 // - Redeclared variables → Declare sum once.
-// - Syntax errors: wrong array syntax, missing semicolon → Use `new int[]{...}` and `right--;`
+nd `right--;`
 // - Returned values instead of indices → Ensure returning left+1, right+1.
 
