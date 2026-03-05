@@ -36,7 +36,6 @@ public int[] twoSum(int[] nums, int target) {
 // 5) Mistakes & How to Avoid
 // - Inconsistent variable names (num/arr/nums) → Stick to one name.
 // - Missing loop — always wrap logic in `while (left < right)`.
-// - Checked sum before computing → Always compute first.
-// - Wrong condition (<=) → Use < for left pointer movement.
+
 
 
