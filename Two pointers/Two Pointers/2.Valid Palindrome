@@ -33,7 +33,7 @@ public boolean isPalindrome(String s) {
 
     while (i < j) {
 
-        // move left pointer until alphanumeric
+      
         while (i < j && !Character.isLetterOrDigit(s.charAt(i))) {
             i++;
         }
