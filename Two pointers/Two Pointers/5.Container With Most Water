@@ -26,7 +26,7 @@
 
 // Area is always limited by the shorter wall
 // Moving the taller wall never increases area
-// ─────────────────────────────────────────
+
 // 5️⃣ Pointer Rules (Measurement Logic)
 
 // - Container Height = min(left wall, right wall)
