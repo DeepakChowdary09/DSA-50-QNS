@@ -36,7 +36,7 @@
 // Movement Rule:
 // - Move the pointer with smaller height
 //   because only that can improve future area
-// ─────────────────────────────────────────
+
 // 6️⃣ Time & Space
 // ─────────────────────────────────────────
 // Time:  O(n)  → each pointer moves once
