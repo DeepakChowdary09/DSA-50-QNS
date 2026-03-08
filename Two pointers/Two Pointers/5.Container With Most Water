@@ -28,7 +28,7 @@
 // Moving the taller wall never increases area
 // ─────────────────────────────────────────
 // 5️⃣ Pointer Rules (Measurement Logic)
-// ─────────────────────────────────────────
+
 // - Container Height = min(left wall, right wall)
 // - Container Width  = right index − left index
 // - Area = height × width
