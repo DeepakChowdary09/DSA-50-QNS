@@ -41,9 +41,7 @@
 // ─────────────────────────────────────────
 // Time:  O(n)  → each pointer moves once
 // Space: O(1)  → no extra memory
-// ─────────────────────────────────────────
-// 7️⃣ Code (Clean — No Comments Inside)
-// ─────────────────────────────────────────
+
 
 class Solution {
     public int maxArea(int[] height) {
