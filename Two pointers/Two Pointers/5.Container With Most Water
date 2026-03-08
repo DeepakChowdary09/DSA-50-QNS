@@ -23,7 +23,7 @@
 // - Formula depends on distance between indices
 
 // 4️⃣ Core Invariant
-// ─────────────────────────────────────────
+
 // Area is always limited by the shorter wall
 // Moving the taller wall never increases area
 // ─────────────────────────────────────────
