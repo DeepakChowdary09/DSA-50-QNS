@@ -21,7 +21,7 @@
 // - Array-based problem
 // - Need max/min value
 // - Formula depends on distance between indices
-// ─────────────────────────────────────────
+
 // 4️⃣ Core Invariant
 // ─────────────────────────────────────────
 // Area is always limited by the shorter wall
