@@ -18,7 +18,7 @@
 // - Do NOT pass k as input
 // - Do NOT return inside the loop
 // - Do NOT use fast <= nums.length
-// - Do NOT maintain extra counters
+
 
 public int RemoveDuplicates(int[] nums){
 if( nums.length==0) return 0;
