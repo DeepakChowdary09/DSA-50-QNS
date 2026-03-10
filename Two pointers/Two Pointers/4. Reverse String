@@ -19,7 +19,7 @@
 // - Stop when i >= j
 // - No comparison of values needed
 
-// 🔹 Common Mistakes (Recall Check)
+// 🔹 Common Mistakes 
 // ❌ Comparing values instead of swapping
 // ❌ Overwriting one side (losing data)
 // ❌ Moving pointers outward instead of inward
