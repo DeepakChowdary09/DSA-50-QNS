@@ -1,10 +1,6 @@
 # DSA-50-QNS
   The problems that are in this 50-Problem Sheet are of the below mentioned patterns.  
 
-➡️ Covers high-leverage patterns 
-
-
-
 This covers EVERYTHING you need:
 
 Arrays
