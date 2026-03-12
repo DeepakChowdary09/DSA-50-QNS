@@ -23,7 +23,7 @@
 // - Array problem with optimization needed
 
 
-// Core Invariant
+
 
 // After sorting:
 // - Fix i, then search pairs in (i+1 ... n-1)
