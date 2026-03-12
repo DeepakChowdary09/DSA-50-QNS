@@ -30,7 +30,7 @@
 // - Move pointers based on sum comparison
 // - Skip duplicates to ensure uniqueness
 
-// ─────────────────────────────────────────
+
 //Pointer Rules (Measurement Logic)
 // ─────────────────────────────────────────
 // For each i:
