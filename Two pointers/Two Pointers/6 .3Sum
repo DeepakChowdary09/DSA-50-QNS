@@ -31,8 +31,7 @@
 // - Skip duplicates to ensure uniqueness
 
 
-//Pointer Rules (Measurement Logic)
-// ─────────────────────────────────────────
+
 // For each i:
 // - left = i + 1
 // - right = n - 1
