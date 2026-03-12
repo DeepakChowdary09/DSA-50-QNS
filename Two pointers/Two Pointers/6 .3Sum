@@ -46,9 +46,6 @@
 // Time: O(n^2)
 // Space: O(1) (excluding output)
 
-// ─────────────────────────────────────────
-//  Code (Clean — No Comments Inside)
-// ─────────────────────────────────────────
 
 class Solution {
 public List<List<Integer>> threeSum(int[] nums) {
