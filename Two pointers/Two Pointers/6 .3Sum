@@ -24,7 +24,7 @@
 
 
 // Core Invariant
-// ─────────────────────────────────────────
+
 // After sorting:
 // - Fix i, then search pairs in (i+1 ... n-1)
 // - Move pointers based on sum comparison
