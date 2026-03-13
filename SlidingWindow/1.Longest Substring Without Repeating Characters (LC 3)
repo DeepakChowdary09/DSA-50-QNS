@@ -25,7 +25,7 @@
 // move left until duplicate is removed
 // - Update maximum window size each step
 
-// ─────────────────────────────────────────
+
 // 6️⃣ Time & Space
 // ─────────────────────────────────────────
 // Time: O(n) → each character processed at most twice
