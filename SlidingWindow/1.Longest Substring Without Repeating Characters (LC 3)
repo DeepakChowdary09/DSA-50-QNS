@@ -12,7 +12,7 @@
 //  Pattern
 // Sliding Window + Two Pointers
 
-// 3️⃣ When to Use (Trigger)
+//  When to Use (Trigger)
 // - String / array window problems
 // - Need longest / shortest valid subarray
 // - Constraint: uniqueness / frequency condition
