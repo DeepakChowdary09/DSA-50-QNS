@@ -18,8 +18,8 @@
 // - Constraint: uniqueness / frequency condition
 
 
-// 5️⃣ Pointer Rules (Measurement Logic)
-// ─────────────────────────────────────────
+//  Pointer Rules (Measurement Logic)
+
 // - Expand right to include new character
 // - If character already exists in window:
 // move left until duplicate is removed
