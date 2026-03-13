@@ -9,7 +9,7 @@
 // - Substring must be contiguous
 // - Characters inside window must be unique
 
-// 2️⃣ Pattern
+//  Pattern
 // Sliding Window + Two Pointers
 
 // 3️⃣ When to Use (Trigger)
