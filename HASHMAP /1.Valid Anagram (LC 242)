@@ -33,7 +33,7 @@
 // - Decrement count for t[i]
 // - Check if all values are zero
 
-// ─────────────────────────────────────────
+
 // Time & Space
 // ─────────────────────────────────────────
 // Time: O(n)
