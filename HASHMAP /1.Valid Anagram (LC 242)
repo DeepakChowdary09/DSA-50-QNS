@@ -35,7 +35,6 @@
 
 
 // Time & Space
-// ─────────────────────────────────────────
 // Time: O(n)
 // Space: O(1) → fixed 26 lowercase letters
 
