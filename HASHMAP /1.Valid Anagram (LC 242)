@@ -38,9 +38,7 @@
 // Time: O(n)
 // Space: O(1) → fixed 26 lowercase letters
 
-// ─────────────────────────────────────────
 
-// ─────────────────────────────────────────
 
 class Solution {
 public boolean isAnagram(String s, String t) {
