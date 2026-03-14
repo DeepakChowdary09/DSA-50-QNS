@@ -19,7 +19,7 @@
 // - Exact frequency matching required
 
 
-// ─────────────────────────────────────────
+
 // If two strings are anagrams:
 // After incrementing for s and decrementing for t,
 // all frequencies will be zero.
