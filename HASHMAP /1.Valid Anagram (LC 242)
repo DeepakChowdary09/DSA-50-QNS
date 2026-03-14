@@ -25,7 +25,7 @@
 // all frequencies will be zero.
 
 
-// Measurement Logic
+
 
 // - If lengths differ → return false
 // - Traverse both strings simultaneously
