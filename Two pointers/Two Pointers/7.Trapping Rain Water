@@ -7,7 +7,7 @@
 // water[i] = min(maxLeft[i], maxRight[i]) - height[i]
 
 
-// Rules:
+
 // - Water trapped only where there are taller bars on both sides
 // - No negative water (treat as 0)
 
@@ -28,11 +28,6 @@
 // Using two pointers:
 // - If leftMax <= rightMax, left side is resolved
 // - Else, right side is resolved
-
-
-
-
-
 
 
 // - leftMax  = max height seen from left
