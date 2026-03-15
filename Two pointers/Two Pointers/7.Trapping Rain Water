@@ -34,7 +34,7 @@
 
 
 
-// Maintain:
+
 // - leftMax  = max height seen from left
 // - rightMax = max height seen from right
 //
