@@ -25,7 +25,7 @@
 // min(maxLeft, maxRight)
 
 
-// Using two pointers:
+
 // - If leftMax <= rightMax, left side is resolved
 // - Else, right side is resolved
 
