@@ -37,7 +37,7 @@ Sliding Window Maximum (LC 239)
 
 
 
-// ─────────────────────────────────────────
+
 // Time: O(n) → each element added & removed once
 // Space: O(k)
 
