@@ -21,7 +21,6 @@ Sliding Window Maximum (LC 239)
 // - Optimization over brute force
 
 
-// Core Invariant
 // ─────────────────────────────────────────
 // Deque stores indices
 // Values in deque are in decreasing order
