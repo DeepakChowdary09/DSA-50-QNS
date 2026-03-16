@@ -15,7 +15,7 @@ Sliding Window Maximum (LC 239)
 / Pattern
 // Monotonic Deque (Decreasing Order)
 
-// When to Use (Trigger)
+
 // - Sliding window + need max/min
 // - Repeated window queries
 // - Optimization over brute force
