@@ -42,7 +42,7 @@ Sliding Window Maximum (LC 239)
 // Space: O(k)
 
 
-// ─────────────────────────────────────────
+
 
 class Solution {
 public int[] maxSlidingWindow(int[] nums, int k) {
