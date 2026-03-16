@@ -21,12 +21,12 @@ Sliding Window Maximum (LC 239)
 // - Optimization over brute force
 
 
-// ─────────────────────────────────────────
+
 // Deque stores indices
 // Values in deque are in decreasing order
 // Front always holds index of current maximum
 
-// Pointer Rules (Measurement Logic)
+
 // ─────────────────────────────────────────
 // For each index i:
 // - Remove indices out of window (i - k)
