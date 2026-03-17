@@ -20,3 +20,21 @@ Complexity:
 #
 # Space Complexity: O(n)
 # - In worst case, storing all prefix sums
+
+def subarraySum(nums, k):
+    count = 0                # Number of subarrays with sum = k
+    current_sum = 0          # Running prefix sum
+    prefix_map = {0: 1}      # Base case: sum 0 occurs once
+
+    for num in nums:
+        current_sum += num
+
+        # Check if there exists a prefix sum we can subtract to get k
+        if (current_sum - k) in prefix_map:
+            count += prefix_map[current_sum - k]
+
+        # Store/update prefix sum frequency
+        prefix_map[current_sum] = prefix_map.get(current_sum, 0) + 1
+
+    return count
+
