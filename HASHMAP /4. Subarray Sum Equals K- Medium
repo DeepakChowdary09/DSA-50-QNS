@@ -12,3 +12,11 @@ Example:
 # - Instead of checking all subarrays (O(n^2)), we use prefix sums.
 # - If current_sum - k exists in hashmap,
 #   it means a subarray with sum k exists ending at current index.
+
+Complexity:
+# Time Complexity: O(n)
+# - Single pass through array
+# - HashMap lookup is O(1) average
+#
+# Space Complexity: O(n)
+# - In worst case, storing all prefix sums
