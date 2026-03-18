@@ -1,4 +1,4 @@
-🧩 Problem: Subarray Sum Equals K (LeetCode - Medium)
+ Problem: Subarray Sum Equals K (LeetCode - Medium)
 # Given an array of integers nums and an integer k,
 # return the total number of continuous subarrays whose sum equals k.
 Example:
