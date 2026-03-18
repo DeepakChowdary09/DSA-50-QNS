@@ -1,6 +1,6 @@
  You are given an array of strings strs.
 Group the anagrams together and return the groups.
-// Order of output does not matter.
+Order of output does not matter.
 
 // Formula:
 // Anagrams → same sorted string
