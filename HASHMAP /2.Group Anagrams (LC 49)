@@ -1,5 +1,5 @@
  You are given an array of strings strs.
-// Group the anagrams together and return the groups.
+Group the anagrams together and return the groups.
 // Order of output does not matter.
 
 // Formula:
