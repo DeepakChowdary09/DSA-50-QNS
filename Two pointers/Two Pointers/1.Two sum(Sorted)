@@ -33,7 +33,7 @@ public int[] twoSum(int[] nums, int target) {
 // - Return indices (1-based), not the values.
 // - Syntax mistakes like wrong array literal or missing semicolons cause compile errors.
 
-// 5) Mistakes & How to Avoid
+// 5) Mistakes to avoid
 // - Inconsistent variable names (num/arr/nums) → Stick to one name.
 // - Missing loop — always wrap logic in `while (left < right)`.
 
