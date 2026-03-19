@@ -27,7 +27,7 @@ public int[] twoSum(int[] nums, int target) {
 // Time: O(n) — single linear pass using two pointers.
 // Space: O(1) — constant extra memory.
 
-// 4) Learnings
+
 // - Two pointers on a sorted array efficiently find a target sum in linear time.
 // - Compute the sum before checking conditions.
 // - Return indices (1-based), not the values.
