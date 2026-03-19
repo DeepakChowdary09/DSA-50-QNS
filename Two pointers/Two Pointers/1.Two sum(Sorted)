@@ -1,4 +1,4 @@
-// 1) Question (Battle Map)
+// 1) Question 
 // You are given a 1-indexed, sorted integer array numbers and a target integer target.
 // Find two numbers such that they add up to target and return their 1-based indices [i, j].
 // Assume exactly one solution exists and you may not use the same element twice.
