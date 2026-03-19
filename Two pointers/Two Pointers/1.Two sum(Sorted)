@@ -23,7 +23,7 @@ public int[] twoSum(int[] nums, int target) {
 }
 
 
-// 2) Time & Space Complexity
+
 // Time: O(n) — single linear pass using two pointers.
 // Space: O(1) — constant extra memory.
 
