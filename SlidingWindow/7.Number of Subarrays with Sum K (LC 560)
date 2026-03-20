@@ -3,7 +3,7 @@
 // Return the total number of continuous subarrays
 // whose sum equals k.
 
-// Formula:
+
 // prefixSum[j] − prefixSum[i] = k
 // → prefixSum[i] = prefixSum[j] − k
 
