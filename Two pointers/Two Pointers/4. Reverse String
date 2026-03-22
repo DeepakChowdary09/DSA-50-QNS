@@ -2,30 +2,29 @@
 // Given a character array s, reverse the array in-place.
 // You must do this by modifying the input array with O(1) extra memory.
 
-// 🔹 Pattern
 // Two Pointers (Swap Ends)
 
-// 🔹 When to Use (Trigger)
+
 // - Reverse an array or string
 // - In-place modification required
 // - No extra space allowed
 
-// 🔹 Core Invariant
+
 // Elements outside the pointers are already reversed correctly
 
-// 🔹 Pointer Rules
+
 // - Swap elements at i and j
 // - Move i forward and j backward
 // - Stop when i >= j
 // - No comparison of values needed
 
-// 🔹 Common Mistakes 
+
 // ❌ Comparing values instead of swapping
 // ❌ Overwriting one side (losing data)
 // ❌ Moving pointers outward instead of inward
 // ❌ Returning early before full reversal
 
-// 🔹 One-Line Hint
+//  Hint
 // Reverse = swap positions, not values
 
 
