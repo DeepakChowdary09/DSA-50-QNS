@@ -3,11 +3,11 @@
 // all non-alphanumeric characters and ignoring case.
 // Must run in O(n) time and O(1) space.
 
-// 2) Time & Space Complexity
+
 // Time:  O(n)
 // Space: O(1)
 
-// 4) Learnings
+
 // - Use two pointers (i and j).
 // - Skip non-alphanumeric characters.
 // - Convert both characters to lowercase.
