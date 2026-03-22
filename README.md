@@ -27,7 +27,7 @@ Linked List
 
 Trees
 
-Graphs (light but essential)
+Graphs (Basics but essential)
 
 Bit Manipulation
 
