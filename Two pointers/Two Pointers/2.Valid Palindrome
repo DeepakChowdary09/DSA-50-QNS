@@ -14,7 +14,6 @@
 // - Compare s.charAt(i) and s.charAt(j) directly.
 // - Return false immediately on mismatch.
 
-// 5) Mistakes to Avoid
 // - Never use s[i] in Java (use charAt).
 // - Don’t compare characters with a string list.
 // - Don’t return early after one match.
