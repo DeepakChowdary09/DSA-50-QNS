@@ -32,7 +32,7 @@ public int[] twoSum(int[] nums, int target) {
 // - Compute the sum before checking conditions.
 // - Return indices (1-based), not the values
 
-// 5) Mistakes to avoid
+
 // - Inconsistent variable names (num/arr/nums) → Stick to one name.
 // - Missing loop — always wrap logic in `while (left < right)`.
 
