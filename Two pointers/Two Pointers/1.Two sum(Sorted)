@@ -33,8 +33,6 @@ public int[] twoSum(int[] nums, int target) {
 // - Return indices (1-based), not the values
 
 
-// - Inconsistent variable names (num/arr/nums) → Stick to one name.
-// - Missing loop — always wrap logic in `while (left < right)`.
 
 
 
