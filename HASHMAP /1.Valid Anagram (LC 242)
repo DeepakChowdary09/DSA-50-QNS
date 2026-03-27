@@ -10,7 +10,7 @@ You are given two strings s and t.
 // - Characters and their counts must match exactly
 // - Case-sensitive (if specified)
 
-// Pattern
+
 // Frequency Count (Single Array Cancelation)
 
 // When to Use (Trigger)
