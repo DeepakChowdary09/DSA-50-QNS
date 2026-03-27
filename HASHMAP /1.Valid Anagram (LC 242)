@@ -1,4 +1,4 @@
-// You are given two strings s and t.
+You are given two strings s and t.
 // Return true if t is an anagram of s,
 // otherwise return false.
 
