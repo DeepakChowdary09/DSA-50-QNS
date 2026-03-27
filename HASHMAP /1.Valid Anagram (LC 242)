@@ -1,5 +1,5 @@
 You are given two strings s and t.
-// Return true if t is an anagram of s,
+ Return true if t is an anagram of s,
 // otherwise return false.
 
  Formula:
