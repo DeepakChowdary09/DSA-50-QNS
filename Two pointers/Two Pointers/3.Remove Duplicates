@@ -4,7 +4,7 @@
 // Return the number of unique elements k.
 
 // ⏱ Time Complexity: O(n)
-// 🧠 Space Complexity: O(1)
+//  Space Complexity: O(1)
 
 //  Key Learnings:
 // - Sorted array → duplicates are adjacent
