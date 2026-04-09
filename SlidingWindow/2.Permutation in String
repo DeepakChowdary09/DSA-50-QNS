@@ -14,7 +14,7 @@
 // Pattern
 // Sliding Window + Frequency Count
 
-// When to Use (Trigger)
+// When to Use
 // - String matching problems
 // - Fixed-size window
 // - Character frequency comparison
