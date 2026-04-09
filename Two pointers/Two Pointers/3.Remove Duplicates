@@ -13,7 +13,7 @@
 // - fast scans the array
 // - Unique count = slow + 1
 
-// ❌ Common Mistakes to Avoid:
+//  Common Mistakes to Avoid:
 // - Do NOT use two-end pointers (i, j)
 // - Do NOT pass k as input
 // - Do NOT return inside the loop
