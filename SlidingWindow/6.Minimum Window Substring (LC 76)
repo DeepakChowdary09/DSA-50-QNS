@@ -20,7 +20,7 @@
 // - Need smallest valid substring
 // - Frequency-based condition
 // - Expand + shrink window dynamically
-// ─────────────────────────────────────────
+
 // Core Invariant
 // ─────────────────────────────────────────
 // Maintain:
