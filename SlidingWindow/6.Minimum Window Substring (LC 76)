@@ -21,8 +21,7 @@
 // - Frequency-based condition
 // - Expand + shrink window dynamically
 
-// Core Invariant
-// ─────────────────────────────────────────
+
 // Maintain:
 // - need[] → frequency of characters in t
 // - window[] → frequency inside current window
