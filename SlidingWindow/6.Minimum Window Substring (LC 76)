@@ -30,8 +30,7 @@
 // Window is valid when formed == required
 
 
-// Pointer Rules (Measurement Logic)
-// ─────────────────────────────────────────
+// Pointer Rules 
 // - Expand right pointer and update window frequency
 // - If character satisfies required count, increment formed
 // - When window valid:
