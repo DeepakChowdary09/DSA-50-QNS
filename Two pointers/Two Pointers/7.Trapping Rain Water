@@ -9,7 +9,7 @@
 
 
 //  Water trapped only where there are taller bars on both sides
-// - No negative water (treat as 0)
+// No negative water (treat as 0)
 
 
 //  Pattern
