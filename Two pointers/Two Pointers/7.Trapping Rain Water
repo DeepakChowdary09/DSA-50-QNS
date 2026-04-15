@@ -15,7 +15,7 @@
 //  Pattern
 // Two Pointers + Running Max (Ends → Inward)
 // When to Use (Trigger)
-// - Array-based elevation / histogram
+// Array-based elevation / histogram
 // - Need total trapped area
 // - Local contribution depends on left and right boundaries
 
