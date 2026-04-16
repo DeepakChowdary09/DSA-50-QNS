@@ -7,7 +7,7 @@
 
 // Rules:
 //  Substring must be contiguous
-// - Characters inside window must be unique
+// Characters inside window must be unique
 
 //  Pattern
 // Sliding Window + Two Pointers
