@@ -6,7 +6,7 @@
 // window length = right − left + 1
 
 // Rules:
-// - Substring must be contiguous
+//  Substring must be contiguous
 // - Characters inside window must be unique
 
 //  Pattern
