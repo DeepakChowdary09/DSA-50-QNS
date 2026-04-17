@@ -15,7 +15,7 @@
 // Sliding Window + Frequency Count
 
 // When to Use
-// - String matching problems
+//  String matching problems
 // - Fixed-size window
 // - Character frequency comparison
 
