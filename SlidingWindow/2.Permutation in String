@@ -8,7 +8,7 @@
 // valid window when frequency(s1) == frequency(window)
 
 
-// - Permutation means same characters with same counts
+//  Permutation means same characters with same counts
 // - Window length must be exactly s1.length()
 
 // Pattern
