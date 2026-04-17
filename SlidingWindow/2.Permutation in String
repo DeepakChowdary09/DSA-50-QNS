@@ -24,7 +24,7 @@
 // At any point, window is valid if both frequency maps match
 
 
-// - Expand right pointer and include character
+//  Expand right pointer and include character
 // - If window size exceeds s1 length, remove left character
 // - After each adjustment, compare frequencies
 
