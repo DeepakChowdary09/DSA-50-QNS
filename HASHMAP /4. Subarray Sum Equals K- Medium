@@ -19,7 +19,7 @@ Example:
 # - HashMap lookup is O(1) average
 
 # Space Complexity: O(n)
-# - In worst case, storing all prefix sums
+#  In worst case, storing all prefix sums
 
 def subarraySum(nums, k):
     count = 0                # Number of subarrays with sum = k
