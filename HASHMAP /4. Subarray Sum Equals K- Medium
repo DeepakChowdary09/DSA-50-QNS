@@ -16,7 +16,7 @@ Example:
 
 # Time Complexity: O(n)
 #  Single pass through array
-# - HashMap lookup is O(1) average
+#  HashMap lookup is O(1) average
 
 # Space Complexity: O(n)
 #  In worst case, storing all prefix sums
