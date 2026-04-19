@@ -6,7 +6,7 @@ otherwise return false.
 // frequency(s) == frequency(t)
 
 // Rules:
-// - Both strings must have same length
+//  Both strings must have same length
 // - Characters and their counts must match exactly
 // - Case-sensitive (if specified)
 
