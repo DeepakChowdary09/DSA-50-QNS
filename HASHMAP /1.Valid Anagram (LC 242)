@@ -8,7 +8,7 @@ otherwise return false.
 // Rules:
 //  Both strings must have same length
 //  Characters and their counts must match exactly
-// - Case-sensitive (if specified)
+//  Case-sensitive (if specified)
 
 
 // Frequency Count (Single Array Cancelation)
