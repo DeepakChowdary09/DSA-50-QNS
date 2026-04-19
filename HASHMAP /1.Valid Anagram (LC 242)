@@ -15,7 +15,7 @@ otherwise return false.
 
 // When to Use (Trigger)
 //  Compare two strings
-// - Order does not matter
+//  Order does not matter
 // - Exact frequency matching required
 
 
