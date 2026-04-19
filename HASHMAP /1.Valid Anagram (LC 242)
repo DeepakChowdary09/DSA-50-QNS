@@ -14,7 +14,7 @@ otherwise return false.
 // Frequency Count (Single Array Cancelation)
 
 // When to Use (Trigger)
-// - Compare two strings
+//  Compare two strings
 // - Order does not matter
 // - Exact frequency matching required
 
