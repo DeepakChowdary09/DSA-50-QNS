@@ -7,7 +7,7 @@ otherwise return false.
 
 // Rules:
 //  Both strings must have same length
-// - Characters and their counts must match exactly
+//  Characters and their counts must match exactly
 // - Case-sensitive (if specified)
 
 
