@@ -24,7 +24,7 @@ Sliding Window Maximum (LC 239)
 // Values in deque are in decreasing order
 // Front always holds index of current maximu
 // For each index i:
-// - Remove indices out of window (i - k)
+//  Remove indices out of window (i - k)
 // - Remove smaller elements from back
 // - Add current index to deque
 // - If window formed (i >= k - 1):
