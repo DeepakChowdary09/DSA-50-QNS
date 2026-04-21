@@ -25,7 +25,7 @@ Sliding Window Maximum (LC 239)
 // Front always holds index of current maximu
 // For each index i:
 //  Remove indices out of window (i - k)
-// - Remove smaller elements from back
+// Remove smaller elements from back
 // - Add current index to deque
 // - If window formed (i >= k - 1):
 // result = nums[deque.peekFirst()]
