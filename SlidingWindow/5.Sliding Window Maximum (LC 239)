@@ -9,7 +9,7 @@ Sliding Window Maximum (LC 239)
 // max = front of deque
 
 // Rules:
-// - Window size is fixed (k)
+//  Window size is fixed (k)
 // - Need maximum for each window
 // - Must be efficient (better than O(nk))
 / Pattern
