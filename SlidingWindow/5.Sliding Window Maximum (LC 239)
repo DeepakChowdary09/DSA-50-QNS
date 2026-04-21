@@ -18,7 +18,7 @@ Sliding Window Maximum (LC 239)
 
 //  Sliding window + need max/min
 // Repeated window queries
-// - Optimization over brute force
+//  Optimization over brute force
 
 // Deque stores indices
 // Values in deque are in decreasing order
