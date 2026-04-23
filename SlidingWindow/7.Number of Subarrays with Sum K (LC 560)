@@ -3,7 +3,7 @@
 whose sum equals k
 
 
-// prefixSum[j] − prefixSum[i] = k
+ prefixSum[j] − prefixSum[i] = k
 //  prefixSum[i] = prefixSum[j] − k
 
 // Rules:
