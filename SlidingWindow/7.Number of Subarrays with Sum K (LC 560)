@@ -5,7 +5,7 @@
 
 
 // prefixSum[j] − prefixSum[i] = k
-// → prefixSum[i] = prefixSum[j] − k
+//  prefixSum[i] = prefixSum[j] − k
 
 // Rules:
 // - Subarray must be contiguous
