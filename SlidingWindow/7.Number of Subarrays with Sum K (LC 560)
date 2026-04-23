@@ -1,7 +1,7 @@
  You are given an integer array nums
 // and an integer k.
 // Return the total number of continuous subarrays
-// whose sum equals k.
+// whose sum equals k
 
 
 // prefixSum[j] − prefixSum[i] = k
