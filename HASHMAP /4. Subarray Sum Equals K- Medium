@@ -8,7 +8,7 @@ Example:
  Pattern Used:
 # Prefix Sum + HashMap (Cumulative Sum Technique)
 
-# Idea:
+# Idea
 #  Instead of checking all subarrays (O(n^2)), we use prefix sums.
 #  If current_sum - k exists in hashmap
 #   it means a subarray with sum k exists ending at current index.
