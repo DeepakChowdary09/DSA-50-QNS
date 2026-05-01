@@ -14,7 +14,7 @@
 
 //  When to Use (Trigger)
 //  String / array window problems
-// - Need longest / shortest valid subarray
+// Need longest / shortest valid subarray
 // - Constraint: uniqueness  frequency condition
 
 
