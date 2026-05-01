@@ -20,7 +20,7 @@
 
 
 
-// - Expand right to include new character
+// Expand right to include new character
 // - If character already exists in window:
 // move left until duplicate is removed
 // - Update maximum window size each step
