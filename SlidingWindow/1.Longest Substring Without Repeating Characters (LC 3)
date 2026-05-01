@@ -13,7 +13,7 @@
 // Sliding Window + Two Pointers
 
 //  When to Use (Trigger)
-// - String / array window problems
+//  String / array window problems
 // - Need longest / shortest valid subarray
 // - Constraint: uniqueness  frequency condition
 
