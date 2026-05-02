@@ -31,7 +31,7 @@
 
 
 // leftMax  = max height seen from left
-// - rightMax = max height seen from right
+//  rightMax = max height seen from right
 //
 // If height[left] <= height[right]:
 // - leftMax = max(leftMax, height[left])
