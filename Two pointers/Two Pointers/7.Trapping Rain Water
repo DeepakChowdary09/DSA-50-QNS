@@ -27,10 +27,10 @@
 
 
 //  If leftMax <= rightMax, left side is resolved
-// - Else, right side is resolved
+//  Else, right side is resolved
 
 
-// - leftMax  = max height seen from left
+// leftMax  = max height seen from left
 // - rightMax = max height seen from right
 //
 // If height[left] <= height[right]:
