@@ -35,7 +35,7 @@
 //
 // If height[left] <= height[right]:
 //  leftMax = max(leftMax, height[left])
-// - water += leftMax - height[left]
+//  water += leftMax - height[left]
 // - left++
 //
 // Else:
