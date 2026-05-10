@@ -1,6 +1,6 @@
 You are given two strings s and t.
  Return true if t is an anagram of s,
-otherwise return f.
+otherwise return fa.
 
  Formula:
 // frequency(s) == frequency(t)
